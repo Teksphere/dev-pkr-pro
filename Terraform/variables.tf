@@ -10,6 +10,7 @@ variable "ami_id" {
 variable "instance_type" {
   description = "The instance type to use for the EC2 instance or ASG"
   type        = string
+  default     = "t2.medium"
 }
 variable "key_name" {
   description = "The key pair name to use for the EC2 instance or ASG"
