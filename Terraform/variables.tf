@@ -20,7 +20,7 @@ variable "key_name" {
 variable "use_asg" {
   description = "Whether to use an Autoscaling Group (true) or standalone EC2 instance (false)"
   type        = bool
-  default     = true
+  default     = false
 }
 variable "min_size" {
   description = "Minimum number of instances in the ASG"
